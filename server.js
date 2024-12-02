@@ -32,7 +32,7 @@ const post = [
     {
         title : "Pasta",
         contenuto: "Pasta con barbabietola",
-        image: "/img/pasta_barbabietola.jpeg",
+        image: "img/pasta_barbabietola.jpeg",
         tag: ["cibo","pasta","tutorial"]
     }
 ];
