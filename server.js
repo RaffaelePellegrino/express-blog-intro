@@ -37,7 +37,7 @@ const post = [
     }
 ];
 
-app.use('/assets', express.static('assets'));
+app.use('/assets', express.static('assets'))
 
 app.get('/', (req, res) => {
     res.send('Server del mio blog');
