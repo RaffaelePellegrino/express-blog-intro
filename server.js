@@ -51,5 +51,5 @@ app.get('/bacheca', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server del blog in ascolto su http://localhost:${port}`);
+    console.log(`Server del blog su http://localhost:${port}`);
 });
