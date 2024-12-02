@@ -14,7 +14,7 @@ const post = [
     {
         title : "Ciambellone",
         contenuto: "Un ciambellone",
-        image: "/img/Craker.jpeg",
+        image: "/img/craker_barbabietola.jpeg",
         tag: ["cibo","dolci","tutorial"]
     },
     {
@@ -32,12 +32,12 @@ const post = [
     {
         title : "Pasta",
         contenuto: "Pasta con barbabietola",
-        image: "img/pasta_barbabietola.jpeg",
+        image: "/img/pasta_barbabietola.jpeg",
         tag: ["cibo","pasta","tutorial"]
     }
 ];
 
-app.use('/assets', express.static('assets'))
+app.use('/img', express.static('img'));
 
 app.get('/', (req, res) => {
     res.send('Server del mio blog');
